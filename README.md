@@ -13,4 +13,4 @@ in *Zombie-Math-Game/*
 ##### build:  
 in *Zombie-Math-Game/build/*
 
-`jar -cvfm <file name>.jar ./jar/MANIFEST.MF ./andyxuca/ ../src/resources`
+`jar -cvfm <file name>.jar ./config/MANIFEST.MF ./andyxuca/ ../src/resources`
