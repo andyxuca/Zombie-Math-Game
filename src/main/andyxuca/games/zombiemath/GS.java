@@ -1,9 +1,15 @@
-//Andy Xu and Anant Chaudhary
-//Class for instructions and buttons to navigate
+/**
+ * Class for instructions and buttons to navigate
+ * 
+ * @author Andy Xu 
+ * @author Anant Chaudhary
+ */
+package andyxuca.games.zombiemath;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+
 public class GS extends JPanel implements ActionListener{
 	JFrame f;
 	
@@ -68,7 +74,7 @@ public class GS extends JPanel implements ActionListener{
 		
 		f.setVisible(true);
 	}
-
+	
 	public static void main(String[] args) {
 		GS w = new GS();
 		w.setupWindow(w);

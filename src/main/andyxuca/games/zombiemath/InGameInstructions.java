@@ -1,10 +1,16 @@
-//Anant Chaudhary and Andy Xu
-//Class for instructions during game without any buttons so game will not be disturbed
+/**
+ * Class for instructions during game without any buttons so game will not be disturbed
+ * 
+ * @author Andy Xu 
+ * @author Anant Chaudhary
+ */
+package andyxuca.games.zombiemath;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-public class inGameInstructions extends JPanel{
+
+public class InGameInstructions extends JPanel {
 	JFrame f;
 	
 	public void paintComponent(Graphics g) {
@@ -27,7 +33,7 @@ public class inGameInstructions extends JPanel{
 	}
 
 	
-	public void setupWindow (inGameInstructions w) {
+	public void setupWindow (InGameInstructions w) {
 		//new frame
 		f = new JFrame("First");
 		f.setTitle("INSTRUCTIONS!");

@@ -1,5 +1,10 @@
-//Anant Chaudhary and Andy Xu
-//Panel that displays that you lost
+/**
+ * Panel that displays that you lost
+ * 
+ * @author Andy Xu 
+ * @author Anant Chaudhary
+ */
+package andyxuca.games.zombiemath;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -9,6 +14,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
+
 public class LoseScreen extends JPanel implements ActionListener{
 	JFrame f;
 	JButton back, playGame;

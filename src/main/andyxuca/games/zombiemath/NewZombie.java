@@ -1,5 +1,11 @@
-//Andy Xu and Anant Chaudhary 4/9/18
-// Class to create new Zombies
+/**
+ * Class to create new Zombies
+ * 
+ * @author Andy Xu 
+ * @author Anant Chaudhary
+ * @since 4/9/18
+ */
+package andyxuca.games.zombiemath;
 
 public class NewZombie
 {

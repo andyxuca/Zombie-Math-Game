@@ -1,5 +1,11 @@
-//Anant Chaudhary and Andy Xu
-//Class that displays that you win
+/**
+ * Class that displays that you win
+ * 
+ * @author Andy Xu 
+ * @author Anant Chaudhary
+ */
+package andyxuca.games.zombiemath;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
@@ -7,6 +13,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
+
 public class Win extends JPanel implements ActionListener{
 	JFrame f;
 	

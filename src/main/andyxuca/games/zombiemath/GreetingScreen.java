@@ -1,5 +1,10 @@
-//Anant Chaudhary and Andy Xu
-//Class for Home Page with Buttons to navigate to game
+/**
+ * Class for Home Page with Buttons to navigate to game
+ * 
+ * @author Andy Xu 
+ * @author Anant Chaudhary
+ */
+package andyxuca.games.zombiemath;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -30,10 +35,10 @@ public class GreetingScreen extends JPanel implements ActionListener{
 		bg_height = bg.getHeight(null);
 		
 		//signZombie is turning into the first sign
-		ImageIcon sign = new ImageIcon("src/Sign2.jpg");
+		ImageIcon sign = new ImageIcon("src/resources/Sign2.jpg");
 		signZombie = sign.getImage();
 		//signZombie1 is becoming the second sign
-		ImageIcon Sign = new ImageIcon("src/hello.jpg");
+		ImageIcon Sign = new ImageIcon("src/resources/hello.jpg");
 		signZombie1 = Sign.getImage();
 	}
 
