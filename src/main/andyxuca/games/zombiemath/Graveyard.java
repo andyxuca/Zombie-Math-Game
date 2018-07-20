@@ -1,13 +1,19 @@
-//Andy Xu and Anant Chaudhary 3/20/18 
-//Class for drawing background, zombies, and math equation
-//includes timer that moves and generate zombies
-//includes timer that sets time limit every time math equation generates
+/**
+ * Class for drawing background, zombies, and math equation
+ * Includes timer that moves and generate zombies
+ * Includes timer that sets time limit every time math equation generates
+ * 
+ * @author Andy Xu 
+ * @author Anant Chaudhary
+ */
+package andyxuca.games.zombiemath;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
+
 public class Graveyard extends JPanel implements ActionListener
 {	
 	JFrame frame;
@@ -71,13 +77,13 @@ public class Graveyard extends JPanel implements ActionListener
 
 		timeCheck = new Timer(1000, this);
 
-		ImageIcon i = new ImageIcon("src/digger.jpg");
+		ImageIcon i = new ImageIcon("src/resources/digger.jpg");
 		man = i.getImage();
 
-		ImageIcon j = new ImageIcon("src/zombie.gif");
+		ImageIcon j = new ImageIcon("src/resources/zombie.gif");
 		zombie = j.getImage();
 
-		ImageIcon l = new ImageIcon("src/tree.gif");
+		ImageIcon l = new ImageIcon("src/resources/tree.gif");
 		tree = l.getImage();
 
 		answer1 = new JButton();
@@ -177,7 +183,7 @@ public class Graveyard extends JPanel implements ActionListener
 		
 		//button for instructions, pauses game
 		if (e.getSource() == instruction) {
-			inGameInstructions instructionPage = new inGameInstructions();
+			InGameInstructions instructionPage = new InGameInstructions();
 			instructionPage.setupWindow(instructionPage);
 			tm.stop();
 			timeCheck.stop();
