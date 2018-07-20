@@ -1,0 +1,16 @@
+# compile: in /Zombie-Math-Game/
+#
+# find -name "*.java" > sources.txt
+# javac -d ./build/ @sources.txt
+# ================================== #
+# build: in /Zombie-Math-Game/build/
+#
+# jar -cvfm <file name>.jar ./jar/MANIFEST.MF ./andyxuca/ ../src/resources
+
+./src/main/andyxuca/games/zombiemath/GS.java
+./src/main/andyxuca/games/zombiemath/Graveyard.java
+./src/main/andyxuca/games/zombiemath/GreetingScreen.java
+./src/main/andyxuca/games/zombiemath/InGameInstructions.java
+./src/main/andyxuca/games/zombiemath/LoseScreen.java
+./src/main/andyxuca/games/zombiemath/NewZombie.java
+./src/main/andyxuca/games/zombiemath/Win.java

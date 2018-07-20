@@ -5,6 +5,7 @@
  * @author Anant Chaudhary
  * @since 4/9/18
  */
+package andyxuca.games.zombiemath;
 
 public class NewZombie
 {

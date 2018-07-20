@@ -74,7 +74,7 @@ public class GS extends JPanel implements ActionListener{
 		
 		f.setVisible(true);
 	}
-
+	
 	public static void main(String[] args) {
 		GS w = new GS();
 		w.setupWindow(w);
